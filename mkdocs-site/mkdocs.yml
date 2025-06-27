@@ -1,0 +1,26 @@
+site_name: dove的个人网站
+#site_url: "https://jialedove.github.io/my-site/"
+theme:
+  name:  material       # 启用 Material 主题
+  language: zh            # UI 语言
+  palette:
+    - scheme: default
+      primary: indigo     # 主题色
+      accent: indigo
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: 切换深色
+markdown_extensions:
+  - admonition            # 提示框
+  - codehilite            # 代码高亮
+  - pymdownx.tasklist     # 任务清单
+plugins:
+  - search                # 内置快速搜索
+  - tags                  # 文章标签
+nav:
+  - 首页: index.md
+  - 文章:
+    - 开始:个人网站.md
