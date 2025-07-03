@@ -1,17 +1,13 @@
-# Welcome to MkDocs
+## 为何建站
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+- 「**关于我自己**」：不依托于任何平台，这是独属于自己的一片天地；
+- 「**透明与问责**」：将自己织入互联网语义网络，从而更负责任地生活。
 
-## Commands
+---
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## 愿景
+- 我将网站分为三个板块：知识、文章以及项目：
+	- **知识板块**：[原子化笔记](原子化笔记.md)的公开实践；
+	- **文章板块**：贯通之道在语言中成形；
+	- **项目板块**：对所做之事，保持透明。
+- **「有始有终，螺旋上升」**：知识板块为思考与做事之起点，文章与项目板块为思考与做事之终点，两大功能模块相互促进，形成闭环。

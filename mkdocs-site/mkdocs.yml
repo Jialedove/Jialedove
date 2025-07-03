@@ -1,18 +1,36 @@
-site_name: dove的个人网站
-#site_url: "https://jialedove.github.io/my-site/"
+site_name: dove 的个人网站
+site_url: "https://jialedove.github.io/my-site/"
 theme:
   name:  material       # 启用 Material 主题
-  language: zh            # UI 语言
+  language: zh 
+  features:
+      - navigation.path # 路径面包屑
+      - navigation.instant  
+      - navigation.instant.progress
+      - toc.integrate # 集成目录 Navigation integration
+      - navigation.top # 顶部导航栏
+      - search.highlight # 搜索高亮
   palette:
-    - scheme: default
-      primary: indigo     # 主题色
-      accent: indigo
-    - scheme: slate
-      primary: indigo
-      accent: indigo
+    # Palette toggle for automatic mode
+    # - media: "(prefers-color-scheme)"
+    #   toggle:
+    #     icon: material/brightness-auto
+    #     name: 切换到浅色
+    - media: "(prefers-color-scheme: light)"
+      scheme: white
+      primary: white     # 主题色
+      accent: light blue
       toggle:
-        icon: material/weather-night
-        name: 切换深色
+        icon: material/toggle-switch-off-outline
+        name: 切换到深色
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: deep orange
+      toggle:
+        icon: material/toggle-switch
+        name: 跟随系统
+
 markdown_extensions:
   - admonition            # 提示框
   - codehilite            # 代码高亮
@@ -20,7 +38,21 @@ markdown_extensions:
 plugins:
   - search                # 内置快速搜索
   - tags                  # 文章标签
+extra_javascript:
+  - javascripts/shortcuts.js # 快捷键脚本
+extra:
+  analytics:
+    provider: google
+    property: G-BMLP6MP942 # Google Analytics ID
 nav:
-  - 首页: index.md
+  - 关于: index.md
+  - 知识:
+      - 拳击: boxing.md
+      - 计算机: computer.md
+      - 数学: math.md
+      - 语言: language.md
   - 文章:
-    - 开始:个人网站.md
+      - 常识，如何获得常识？: common-sense.md
+  - 项目:
+      - 个人网站: my-site.md
+  - 标签: tags.md
