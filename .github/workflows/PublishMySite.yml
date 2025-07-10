@@ -1,18 +1,30 @@
-name: publish site
-on: # 在什么时候触发工作流
-  push: # 在从本地main分支被push到GitHub仓库时
-    branches:
-      - main
-  pull_request: # 在main分支合并别人提的pr时
-    branches:
-      - main
-jobs: # 工作流的具体内容
+name: Publish MkDocs
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
   deploy:
-    runs-on: ubuntu-latest # 创建一个新的云端虚拟机 使用最新Ubuntu系统
+    runs-on: ubuntu-latest
+    permissions:           # 让默认 token 具备写入权限
+      contents: write
+      pages: write
     steps:
-      - uses: actions/checkout@v2 # 先checkout到main分支
-      - uses: actions/setup-python@v2 # 再安装Python3和相关环境
+      - uses: actions/checkout@v4          # v4 稳定版
+
+      - uses: actions/setup-python@v5
         with:
-          python-version: 3.x
-      - run: pip install mkdocs-material # 使用pip包管理工具安装mkdocs-material
-      - run: mkdocs gh-deploy --force # 使用mkdocs-material部署gh-pages分支
+          python-version: '3.x'
+
+      - name: Install MkDocs & theme
+        run: |
+          pip install mkdocs mkdocs-material
+
+      - name: Build and deploy
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # 供 mkdocs gh-deploy 使用
+        run: |
+          mkdocs gh-deploy --clean --force            # 构建并推送 gh-pages
