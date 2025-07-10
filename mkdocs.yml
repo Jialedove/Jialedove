@@ -55,6 +55,8 @@ nav:
   - 知识:
       - 拳击: 
         - 拳击站姿: boxing-stance.md
+      - 学习:
+        - 原子化笔记: atomic-notes.md
   - 文章:
       - 常识，如何获得常识？: common-sense.md
   - 项目:
