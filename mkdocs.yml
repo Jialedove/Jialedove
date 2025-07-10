@@ -1,5 +1,5 @@
 site_name: dove
-site_url: "https://jialedove.github.io/my-site/"
+site_url: "https://jialedove.github.io/"
 theme:
   name:  material       # 启用 Material 主题
   language: zh 
@@ -51,7 +51,7 @@ extra:
       link: https://github.com/jialedove
       name: GitHub | jialedove
 nav:
-  - 关于: index.md
+  - Home: index.md
   - 知识:
       - 拳击: 
         - 拳击站姿: boxing-stance.md
