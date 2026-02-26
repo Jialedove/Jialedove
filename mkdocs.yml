@@ -1,64 +1,95 @@
-site_name: dove
+site_name: Dove's Digital Garden
 site_url: "https://jialedove.github.io/Jialedove/"
+site_description: 个人知识库与数字花园
+site_author: Dove
+
 theme:
-  name:  material       # 启用 Material 主题
-  language: zh 
+  name: material
+  language: zh
+  custom_dir: overrides
   features:
-      - navigation.tabs # 把一级导航渲染成横向标签
-      - navigation.indexes   # （可选）让每个 Tab 可以点击到 index.md
-      - navigation.path # 路径面包屑
-      - navigation.instant  
-      - navigation.instant.progress
-      #- toc.integrate # 标题导航目录
-      - navigation.top # 顶部导航栏
-      - search.highlight # 搜索高亮
+    - navigation.tabs
+    - navigation.indexes
+    - navigation.path
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+    - toc.follow
   palette:
-    # Palette toggle for automatic mode
-    # - media: "(prefers-color-scheme)"
-    #   toggle:
-    #     icon: material/brightness-auto
-    #     name: 切换到浅色
     - media: "(prefers-color-scheme: light)"
-      scheme: white
-      primary: white     # 主题色
-      accent: light blue
+      scheme: default
+      primary: white
+      accent: indigo
       toggle:
         icon: material/toggle-switch-off-outline
-        name: 切换到深色
+        name: 切换到深色模式
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: black
-      accent: deep orange
+      accent: indigo
       toggle:
         icon: material/toggle-switch
-        name: 跟随系统
+        name: 切换到浅色模式
+  icon:
+    logo: material/sprout
+    repo: material/github
 
 markdown_extensions:
-  - admonition            # 提示框
-  - codehilite            # 代码高亮
-  - pymdownx.tasklist     # 任务清单
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+      toc_depth: 3
+
 plugins:
-  - search                # 内置快速搜索
-  - tags                  # 文章标签
+  - search
+  - tags
+  - obsidian-interactive-graph
 extra_javascript:
-  - javascripts/shortcuts.js # 快捷键脚本
+  - javascripts/shortcuts.js
+
 extra:
   analytics:
     provider: google
-    property: G-BMLP6MP942 # Google Analytics ID
+    property: G-BMLP6MP942
   social:
     - icon: material/github
       link: https://github.com/jialedove
-      name: GitHub | jialedove
+      name: GitHub
+  generator: false
+
+copyright: Copyright &copy; 2024 - 2026 Dove
+
 nav:
-  - Home: index.md
-  - 知识:
-      - 拳击: 
-        - 拳击站姿: boxing-stance.md
-      - 学习:
-        - 原子化笔记: atomic-notes.md
+  - 首页: index.md
+  - 知识库:
+    - 学习方法论:
+      - 原子化笔记: atomic-notes.md
+    - 格斗:
+      - 拳击站姿: boxing-stance.md
+  - 成为现代人(专栏):
+    - 导读: modern-human/index.md
+    - 1. 信息饮食: modern-human/information-diet.md
+    - 2. 数字极简: modern-human/digital-minimalism.md
+    - 3. 批判性思维: modern-human/critical-thinking.md
+    - 4. 情绪韧性: modern-human/emotional-resilience.md
+    - 5. 财务清醒: modern-human/financial-sobriety.md
+    - 6. 知识复利: modern-human/continuous-learning.md
   - 文章:
-      - 常识，如何获得常识？: common-sense.md
+    - 常识，如何获得常识？: common-sense.md
   - 项目:
+    - 个人开发:
       - 个人网站: my-site.md
+    - 主题研究:
+      - 书籍阐释项目: book-interpretation.md
   - 标签: tags.md
