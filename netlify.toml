@@ -1,0 +1,11 @@
+[build]
+  command = "python -m pip install -U pip && pip install -r requirements.txt && mkdocs build --strict"
+  publish = "site"
+
+[build.environment]
+  PYTHON_VERSION = "3.12"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "noindex"
