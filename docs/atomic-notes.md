@@ -95,7 +95,7 @@ tags:
 
 ## 相关链接
 
-- [个人网站](my-site.md) - 本站的搭建记录
-- [常识，如何获得常识？](common-sense.md) - 关于获取知识的方法论思考
+- [工具癖](tool-obsession.md) - 当工具优化变成逃避时该怎么办
+- [认知失调](cognitive-dissonance.md) - 当想法、行为与自我形象互相冲突时会发生什么
 
 <small>最后更新：2026年2月</small>

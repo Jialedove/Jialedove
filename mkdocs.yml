@@ -75,21 +75,14 @@ nav:
   - 知识库:
     - 学习方法论:
       - 原子化笔记: atomic-notes.md
-    - 格斗:
-      - 拳击站姿: boxing-stance.md
-  - 成为现代人(专栏):
-    - 导读: modern-human/index.md
-    - 1. 信息饮食: modern-human/information-diet.md
-    - 2. 数字极简: modern-human/digital-minimalism.md
-    - 3. 批判性思维: modern-human/critical-thinking.md
-    - 4. 情绪韧性: modern-human/emotional-resilience.md
-    - 5. 财务清醒: modern-human/financial-sobriety.md
-    - 6. 知识复利: modern-human/continuous-learning.md
+      - 工具癖: tool-obsession.md
+      - 认知失调: cognitive-dissonance.md
   - 文章:
-    - 常识，如何获得常识？: common-sense.md
+    - 书籍阐释项目: book-interpretation.md
+  - 菜单:
+    - 菜单: menu.md
+    - 西红柿鸡蛋汤: tomato-egg-soup.md
   - 项目:
-    - 个人开发:
-      - 个人网站: my-site.md
     - 主题研究:
       - 书籍阐释项目: book-interpretation.md
   - 标签: tags.md

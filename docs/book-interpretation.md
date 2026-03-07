@@ -44,7 +44,7 @@ tags:
 
 ## 相关链接
 
-- [个人网站](my-site.md) - 项目记录平台
+- [工具癖](tool-obsession.md) - 关于工具与注意力的反思
 - [原子化笔记](atomic-notes.md) - 笔记方法论
 
 <small>最后更新：2026年2月</small>
