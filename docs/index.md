@@ -1,26 +1,24 @@
 ---
 title: 首页
-description: Dove 的数字花园 - 知识、思考与实践的交汇点
+description: Dove 的个人网站 - 知识、文章与项目的交汇点
 ---
 
-# 欢迎来到我的数字花园 🌱
+# 欢迎来到我的个人网站
 
-这是一个不断生长、演化的个人知识库。
+### 关于这个空间
 
-## 关于这个空间
-
-这里记录着我的学习、思考与整理。我目前将其分为三个核心区域：
+这里记录着我的学习、思考与整理。我目前把内容归到三个核心区域：
 
 | 区域 | 内容 | 特点 |
 |------|------|------|
-| **知识库** | 原子化笔记、概念整理 | 持续迭代，模块化 |
+| **知识** | 原子化笔记、概念整理 | 这是一个不断生长、演化的个人知识区域 |
 | **文章** | 方法、心理与经验反思 | 适合连续阅读 |
-| **菜单** | 家常菜谱与做饭记录 | 可直接照着做 |
+| **项目** | 我目前在做、做过的有意思的事情 | 包含主题研究与菜单等生活实验 |
 
 ## 设计理念
 
 !!! quote "螺旋上升"
-    知识库帮助我沉淀概念，文章帮助我组织表达，菜单则把日常生活里的经验也留下来。
+    知识帮助我沉淀概念，文章帮助我组织表达，项目则把研究过程与日常实验都留下来。
 
 ### 为什么选择数字花园？
 
@@ -32,29 +30,29 @@ description: Dove 的数字花园 - 知识、思考与实践的交汇点
 
 <div class="grid cards" markdown>
 
--   :material-lightbulb:{ .lg .middle } __知识库__
+-   :material-lightbulb:{ .lg .middle } __知识__
 
     ---
 
-    探索学习方法与概念整理
+    探索学习方法、概念整理与持续积累
 
-    [:octicons-arrow-right-24: 工具癖](tool-obsession.md)
+    [:octicons-arrow-right-24: 打开知识页](knowledge.md)
 
 -   :material-pen:{ .lg .middle } __文章__
 
     ---
 
-    阅读方法、心理与经验反思
+    阅读相对完整的表达、反思与连续写作
 
-    [:octicons-arrow-right-24: 认知失调](cognitive-dissonance.md)
+    [:octicons-arrow-right-24: 打开文章页](articles.md)
 
--   :material-silverware-fork-knife:{ .lg .middle } __菜单__
+-   :material-briefcase-outline:{ .lg .middle } __项目__
 
     ---
 
-    收集可以直接复现的家常做法
+    查看主题研究与菜单等生活实验子模块
 
-    [:octicons-arrow-right-24: 西红柿鸡蛋汤](tomato-egg-soup.md)
+    [:octicons-arrow-right-24: 打开项目页](projects.md)
 
 </div>
 

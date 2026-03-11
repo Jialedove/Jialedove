@@ -1,4 +1,4 @@
-site_name: Dove's Digital Garden
+site_name: Dove's Personal Website
 site_url: "https://jialedove.github.io/Jialedove/"
 site_description: 个人知识库与数字花园
 site_author: Dove
@@ -35,12 +35,16 @@ theme:
         icon: material/toggle-switch
         name: 切换到浅色模式
   icon:
-    logo: material/sprout
+    logo: custom/dove-line
     repo: material/github
+  favicon: assets/images/branding/dove-favicon.svg
 
 markdown_extensions:
   - admonition
   - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.superfences
   - pymdownx.tasklist:
       custom_checkbox: true
@@ -57,6 +61,8 @@ plugins:
   - obsidian-interactive-graph
 extra_javascript:
   - javascripts/shortcuts.js
+extra_css:
+  - stylesheets/extra.css
 
 extra:
   analytics:
@@ -71,18 +77,19 @@ extra:
 copyright: Copyright &copy; 2024 - 2026 Dove
 
 nav:
-  - 首页: index.md
-  - 知识库:
+  - 知识:
+    - 知识总览: knowledge.md
     - 学习方法论:
       - 原子化笔记: atomic-notes.md
       - 工具癖: tool-obsession.md
       - 认知失调: cognitive-dissonance.md
   - 文章:
+    - 文章总览: articles.md
     - 书籍阐释项目: book-interpretation.md
-  - 菜单:
-    - 菜单: menu.md
-    - 西红柿鸡蛋汤: tomato-egg-soup.md
   - 项目:
+    - 项目总览: projects.md
     - 主题研究:
       - 书籍阐释项目: book-interpretation.md
-  - 标签: tags.md
+    - 生活实验:
+      - 菜单: menu.md
+      - 西红柿鸡蛋汤: tomato-egg-soup.md

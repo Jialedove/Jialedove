@@ -1,5 +1,5 @@
-# Tags
+# 标签
 
-Following is a list of relevant tags:
+这里汇总本站使用过的标签，方便按主题快速浏览。
 
 <!-- material/tags -->
