@@ -2,3 +2,8 @@ site/
 .venv/
 .DS_Store
 __pycache__/
+.opencode/
+.sisyphus/
+AGENTS.md
+FILE_STRUCTURE.md
+PROJECT_OVERVIEW.md

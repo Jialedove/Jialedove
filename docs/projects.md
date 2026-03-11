@@ -9,14 +9,6 @@ description: Dove 的项目页面，汇集主题研究与生活实验。
 
 <div class="grid cards" markdown>
 
--   :material-book-search-outline:{ .lg .middle } __书籍阐释项目__
-
-    ---
-
-    一个围绕阅读与表达展开的长期主题研究项目。
-
-    [:octicons-arrow-right-24: 查看项目](book-interpretation.md)
-
 -   :material-silverware-fork-knife:{ .lg .middle } __菜单__
 
     ---

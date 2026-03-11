@@ -77,18 +77,12 @@ copyright: Copyright &copy; 2024 - 2026 Dove
 
 nav:
   - 知识:
-    - 知识总览: knowledge.md
-    - 学习方法论:
-      - 原子化笔记: atomic-notes.md
-      - 工具癖: tool-obsession.md
-      - 认知失调: cognitive-dissonance.md
+    - 总览: knowledge.md
+    - 原子化笔记: atomic-notes.md
+    - 工具癖: tool-obsession.md
+    - 认知失调: cognitive-dissonance.md
   - 文章:
-    - 文章总览: articles.md
-    - 书籍阐释项目: book-interpretation.md
+    - 总览: articles.md
   - 项目:
-    - 项目总览: projects.md
-    - 主题研究:
-      - 书籍阐释项目: book-interpretation.md
-    - 生活实验:
-      - 菜单: menu.md
-      - 西红柿鸡蛋汤: tomato-egg-soup.md
+    - 总览: projects.md
+    - 菜单: menu.md

@@ -9,13 +9,7 @@ description: Dove 的文章页面，收集连续成篇的表达与反思。
 
 <div class="grid cards" markdown>
 
--   :material-book-open-page-variant:{ .lg .middle } __书籍阐释项目__
 
-    ---
-
-    围绕阅读、理解与输出，尝试搭建一套自己的书籍阐释方法。
-
-    [:octicons-arrow-right-24: 进入页面](book-interpretation.md)
 
 </div>
 
