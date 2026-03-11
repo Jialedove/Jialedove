@@ -1,11 +1,11 @@
 ---
 title: 菜单
-description: 收集一些可以反复照着做的家常菜。
+description: 项目模块下的菜单子页，收集可反复照着做的家常菜。
 ---
 
 # 菜单
 
-这里先放一些简单、稳定、适合日常复做的菜谱。
+这里是项目模块里的一个生活实验子页。我把那些简单、稳定、适合日常复做的菜谱做成平铺卡片，方便直接挑选。
 
 <div class="grid cards" markdown>
 
@@ -13,7 +13,9 @@ description: 收集一些可以反复照着做的家常菜。
 
   ---
 
-  <div style="height: 180px; border: 1px dashed rgba(128,128,128,.45); border-radius: 1rem; display: flex; align-items: center; justify-content: center; color: rgba(120,120,120,.9); margin-bottom: .8rem;">封面待补</div>
+  <div class="menu-card-cover">
+    <img src="assets/images/tomato-egg-soup.svg" alt="西红柿鸡蛋汤插图" loading="lazy">
+  </div>
 
   一道材料简单、出错率低、适合工作日晚餐的家常汤。
 
