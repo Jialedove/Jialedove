@@ -1,5 +1,8 @@
 <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path d="M16 34C16 24.0589 24.0589 16 34 16C40.3468 16 46.2498 19.3318 49.5 24.75C44 23.9167 39.0833 24.9167 34.75 27.75C36.8055 28.1402 38.5634 29.3437 39.573 31.1799C40.5826 33.0161 40.7392 35.2024 40 37.1667C38.6667 40.6667 35.5 42.5 30.5 42.5H26.75C20.813 42.5 16 37.687 16 31.75V34Z" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M27 43C29.8333 46.6667 34 48.5 39.5 48.5C45.3355 48.5 49.5018 46.0833 52 41.25" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="38" cy="24.5" r="2" fill="currentColor"/>
+  <path d="M11 33.5C11 22.7304 19.7304 14 30.5 14H36.5C48.3741 14 58 23.6259 58 35.5C58 42.9558 54.1941 49.5226 48.4216 53.3673C47.5245 53.9647 46.3416 53.6169 45.8921 52.6424L43.8252 48.1618C43.5076 47.4735 42.8567 47.0206 42.0987 46.9863L33.1888 46.5832C30.8804 46.4788 28.6931 45.532 27.0343 43.9189L21.9146 38.9414C21.2902 38.3344 20.4496 38 19.5785 38H14.5C12.567 38 11 36.433 11 34.5V33.5Z" fill="currentColor"/>
+  <path d="M24.5 20C32.8783 20 39.6794 26.3574 39.6794 34.1515C39.6794 38.9369 37.1188 43.166 33.1876 45.7535" stroke="white" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M41 19L49.5 11.5" stroke="currentColor" stroke-width="5" stroke-linecap="round"/>
+  <path d="M39 23.5L53 22" stroke="currentColor" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="27" cy="26.5" r="2.5" fill="white"/>
+  <path d="M23 52.5C27.1667 56.1667 31.8333 58 37 58C41.9744 58 46.4298 56.9484 50.5 54" stroke="currentColor" stroke-width="4.5" stroke-linecap="round"/>
 </svg>
